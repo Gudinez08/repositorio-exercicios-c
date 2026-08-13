@@ -13,7 +13,20 @@ int main() {
     scanf("%f", &salariobruto);
     float qtdsal;
     qtdsal = salariobruto / salariomin;
-    printf ("Os salarios minimos recebidos são cerca de: %f", qtdsal);
+    printf ("Os salarios minimos recebidos são cerca de: %f \n", qtdsal);
+
+    printf("Exercicio 2:\n");
+    printf("Insira as horas:\n");
+    int hora;
+    scanf("%d", &hora);
+    printf("Insira os minutos:\n");
+    int minuto;
+    scanf("%d", &minuto);
+    int minutostotais;
+    minutostotais = (hora * 60) + minuto;
+    printf("Desde o início do dia, se passaram: %d minutos.\n", minutostotais);
+
+
     return 0;
 
 }
