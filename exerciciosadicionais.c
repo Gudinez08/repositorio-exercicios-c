@@ -26,6 +26,19 @@ int main() {
     minutostotais = (hora * 60) + minuto;
     printf("Desde o início do dia, se passaram: %d minutos.\n", minutostotais);
 
+    printf("Exercicio 3:\n");
+    printf("Insira a nota 1:\n");
+    float nota1;
+    scanf("%f", &nota1);
+    printf("Insira a nota 2:\n");
+    float nota2;
+    scanf("%f", &nota2);
+    printf("Insira a nota 3:\n");
+    float nota3;
+    scanf("%f", &nota3);
+    float media;
+    media = (nota1 + nota2 + nota3) / 3;
+    printf ("A média foi %f de nota \n", media);
 
     return 0;
 
