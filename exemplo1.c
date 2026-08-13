@@ -1,14 +1,12 @@
 /* Lab. 1
-  * Exemplo 1* /
+  * Exemplo 1 */
 
-#include <studio.h>
+#include <stdio.h>
 
 int main() {
   //Imprime algumas mensagens na tela
   printf("Mackenzie FCI\n");
-  printf("Algoritmos e ");
-  printf("Prog. II\n");
-
-
-  return 0
+  printf("Ciências da Computação\n");
+  printf("Algoritmos e Programação II\n");
+  return 0;
 }
