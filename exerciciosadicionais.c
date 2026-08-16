@@ -4,7 +4,7 @@
 
 int main() {
 
-    printf("Exercicio 1:");
+    printf("Exercicio 1: \n");
     printf("Digite o valor do salário mínimo:\n");
     float salariomin;
     scanf("%f", &salariomin);
@@ -40,6 +40,39 @@ int main() {
     media = (nota1 + nota2 + nota3) / 3;
     printf ("A média foi %f de nota \n", media);
 
-    return 0;
+    printf("Exercicio 4:\n");
+    float altura, largura, area;
+    printf("Digite a altura do terreno em metros: \n");
+    scanf("%f", &altura);
+    printf("Digite a largura do terreno em metros: \n");
+    scanf("%f", &largura);
+    area = altura * largura;
+    printf("A área do terreno é de %.2f metros \n", area);
 
+    printf("Exercicio 5:\n");
+    float salmin, dolar, casaspos, valorcasa, orcamento;
+    printf("Digite o valor do salário mínimo: \n");
+    scanf("%f", &salmin);
+    printf("Digite o valor do dólar hoje: \n");
+    scanf("%f", &dolar);
+    valorcasa = salmin * 150;
+    orcamento = dolar * 10000000;
+    casaspos = orcamento / valorcasa;
+    printf("É possível construir %.1f casas \n", casaspos);
+
+    printf("Exercicio 6:\n");
+    int valor;
+    printf("Digite um valor inteiro: \n");
+    scanf("%d", &valor);
+
+    if (valor % 5 == 0) 
+    {
+        printf("Esse número é múltiplo de 5 \n");
+    }
+    else
+    {
+        printf("Esse número não é múltiplo de 5 \n");
+    }
+
+    return 0;
 }
